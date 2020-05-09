@@ -1,11 +1,10 @@
-const fs = require('fs');
 const fabric = require('fabric').fabric;
 
 exports.handler = async (event) => {
     var canvas = new fabric.Canvas(null, {
         width: 200,
         height: 200,
-        backgroundColor: 'navy'
+        backgroundColor: 'darkblue'
     });
 
     var rect = new fabric.Rect({
